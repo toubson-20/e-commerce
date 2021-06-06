@@ -1,0 +1,83 @@
+<html>
+    <head>
+        <title>Rejoignez-nous</title>
+        <meta charset="utf-8">
+        <link rel="stylesheet" href="css/contact.css">
+    </head>
+    <title>ACCEUIL</title>
+	<body>
+		<div id="bloc_page">
+		<header>
+            <img src="images/logo2.png" height="98" alt="Logo de
+            CK" id="logo" />
+		</div>
+		<nav>
+		<ul class="ban">
+      <div class="collapse navbar-collapse" id="navbarResponsive">
+        <ul class="navbar-nav text-uppercase ml-auto">
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Connexion</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#team">Panier</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link js-scroll-trigger" href="#contact">Contact</a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </nav>
+		<li><a href="acceuil.html">ACCEUIL</a></li>
+		<li><a href="inscription.html">INSCRIPTION</a></li>
+		<li><a href="CV.html">CV</a></li>
+		<li><a href="#">CONCTACT</a></li>
+		</ul>
+		</nav>
+		</header>
+    <body><form method="POST" action="contact.php">
+        <section class="page-section" id="contact">
+            <div class="container">
+              <div class="row">
+                <div class="col-lg-12 text-center">
+                  <h2 class="section-heading text-uppercase">Contactez nous</h2>
+                </div>
+              </div>
+              <div class="row">
+                <div class="col-lg-12">
+                  <form id="contactForm" name="sentMessage" novalidate="novalidate">
+                    <div class="row">
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <input class="form-control" id="nom" type="text" placeholder="Nom *" required="required" data-validation-required-message="Please enter your name.">
+                          &emsp;&emsp;&emsp;&emsp;&emsp;&emsp;&emsp;
+                        
+                          <input class="form-control" id="email" type="email" placeholder="Email *" required="required" data-validation-required-message="Please enter your email address.">
+                          <p class="help-block text-danger"></p>
+                        </div>
+                        <div class="form-group">
+                          <input class="form-control" id="numero" type="tel" placeholder="Telephone *" required="required" data-validation-required-message="Please enter your phone number.">
+                          <p class="help-block text-danger"></p>
+                        </div>
+                      </div>
+                      <div class="col-md-6">
+                        <div class="form-group">
+                          <textarea class="form-control" id="commentaire" placeholder="Commentaire *" required="required" data-validation-required-message="Please enter a message."></textarea>
+                          <p class="help-block text-danger"></p>
+                        </div>
+                      </div>
+                      <div class="clearfix"></div>
+                      <div class="col-lg-12 text-center">
+                        <div id="success"></div>
+                        <button id="sendMessageButton" class="btn btn-primary btn-xl text-uppercase" type="submit">Envoyer</button>
+                      </div>
+                    </div>
+                  </form>
+                </div>
+              </div>
+            </div></form>
+          </section>
+            
+        </form>
+    </body>
+</html>
